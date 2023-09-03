@@ -1,3 +1,3 @@
 export function Header() {
-  return <header className="bg-base-gray-300 h-[185px] w-full"></header>
+  return <header className="h-[185px] w-full bg-base-gray-300"></header>
 }

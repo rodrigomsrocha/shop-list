@@ -21,7 +21,7 @@ export default function RootLayout({
         className={`bg-base-gray-600 text-base-gray-100 ${inter.className}`}
       >
         <Header />
-        <div className="mx-auto -mt-[102px] max-w-3xl px-6">{children}</div>
+        <div className="mx-auto -mt-[112px] max-w-3xl px-6">{children}</div>
       </body>
     </html>
   )
