@@ -12,6 +12,7 @@ datasource db {
 
 model Item {
   id       String @id @default(uuid())
+  quantity Int
   name     String
   category String
   unity    String
