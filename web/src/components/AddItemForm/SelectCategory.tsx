@@ -23,8 +23,8 @@ export function SelectCategory() {
   return (
     <Select.Root>
       <Select.Trigger className="group flex min-w-[10.5rem] items-center justify-between rounded-md border border-base-gray-300 bg-base-gray-400 p-3 text-sm leading-4 outline-none data-[state=open]:border-product-purple-light">
-        <Select.Value placeholder="Selecione " />
-        <Select.Icon className="transition-transform group-data-[state=open]:rotate-180 group-data-[state=open]:text-product-purple-light">
+        <Select.Value placeholder="Selecione" />
+        <Select.Icon className="transition-transform data-[state=open]:rotate-180 data-[state=open]:text-product-purple-light">
           <ChevronDown size={16} />
         </Select.Icon>
       </Select.Trigger>
