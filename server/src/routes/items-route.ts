@@ -25,3 +25,13 @@ item.post('/', async (c) => {
 
   return c.json(item)
 })
+
+item.delete('/:id', async (c) => {
+  const params = c.req.param()
+
+  await prisma.item.delete({
+    where: {
+      id: params.id,
+    },
+  })
+})
